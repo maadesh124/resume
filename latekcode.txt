@@ -1,0 +1,182 @@
+%-------------------------
+% Resume in Latex (Based on Jake Gutierrez template)
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Maadesh A} \\ \vspace{1pt}
+    \small 9940835432 $|$ 
+    \href{mailto:maadeshashok100@gmail.com}{\underline{maadeshashok100@gmail.com}} $|$ 
+    \href{https://github.com/maadesh124}{\underline{github.com/maadesh124}} $|$
+    \href{https://leetcode.com/u/Maadesh_A/}{\underline{leetcode.com/u/Maadesh\textunderscore A}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Vellore Institute of Technology, Chennai}{Chennai, India}
+{B.Tech. in Electronics and Communication Engineering; CGPA: 9.16}{Sept. 2022 -- May 2026}
+\resumeSubheading
+{Christ International School - ISC }{Thanjavur, India}
+{Class XII; Percentage: 87.6\%}{2022}
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages}{: C/C++, Java, JavaScript, SQL} \\
+\textbf{Frameworks}{: React, Node.js, Express.js, Tailwind CSS} \\
+\textbf{Databases}{: PostgreSQL, MongoDB, Firebase} \\
+\textbf{Others}{: RESTful APIs, WebSockets, Git, GitHub}
+}}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{R\&D Intern – Samsung Prism}{Oct. 2024 -- Oct. 2025}
+{Remote}{}
+\resumeItemListStart
+\resumeItem{Worked on persistence over ORB-SLAM3 by implementing anchor saving, restoration, and object rendering for accurate 3D localization across SLAM session restarts.}
+\resumeItem{Enabled use-cases like device sleep–wake cycles in SLAM-based applications.}
+\resumeItem{GitHub Repo: \href{https://github.com/maadesh124/ORB_SLAM3_Merged}{\underline{ORB SLAM3 PERSISTANCE}} $|$ Certificate: \href{https://drive.google.com/file/d/1NhBJc9zNndyH4Vg6ft14Ifc3ExlMB2Lv/view?usp=sharing}{\underline{View}}}
+\resumeItemListEnd
+
+\resumeSubheading
+{Flutter App Developer Intern – Anicha Digital Infrastructure}{May 2024 -- July 2024}
+{Remote}{}
+\resumeItemListStart
+\resumeItem{Built a Flutter-based app platform for driving school aggregation as part of a team project.}
+\resumeItem{Designed system architecture and implemented classes using Object-Oriented Programming principles.}
+\resumeItem{Focused on backend and system design contributions rather than UI development.}
+\resumeItem{Certificate: \href{https://drive.google.com/file/d/1PEHAdGcOIzVEM-L8OeokrGDANT5lrmVX/view?usp=drive_link}{\underline{View}}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Online Multiplayer Chess Application} $|$ React, Node.js, WebSockets, OOP Chess Engine}{May 2025}
+\resumeItemListStart
+\resumeItem{Developed full-stack web app with React frontend and Node.js backend using WebSockets for real-time multiplayer gameplay.}
+\resumeItem{Designed custom OOP chess engine for accurate move validation, game logic, and rules management.}
+\resumeItem{Repos: \underline{\href{https://github.com/maadesh124/ChessEngine}{Engine}}, \underline{\href{https://github.com/maadesh124/ChessWebSocket}{Server}}, \underline{\href{https://github.com/maadesh124/ChessWebApp}{Web App}} $|$ Live: \underline{\href{https://chesswebapp.onrender.com/}{Web App}}, \underline{\href{https://chesswebsocket.onrender.com/}{Server}}}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Postgres ORM – Lightweight Recursive ORM} $|$ Node.js, PostgreSQL}{Feb 2025}
+\resumeItemListStart
+\resumeItem{Lightweight recursive ORM supporting caching, automatic class-table mapping, and relational operations.}
+\resumeItem{Features: Save/delete/query objects recursively; execute raw SQL; convert rows to objects using getInstance.}
+\resumeItem{GitHub: \underline{\href{https://github.com/maadesh124/pg_orm}{Repo}} }
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Attendance Monitoring Web App} $|$ Firebase, Embedded Hardware}{Jan 2025}
+\resumeItemListStart
+\resumeItem{Full-stack attendance system using Firebase for managing courses and real-time attendance.}
+\resumeItem{Integrated embedded hardware input for automated updates.}
+\resumeItem{GitHub: \underline{\href{https://github.com/maadesh124/Attendance-WebApp}{Repo}} $|$ Live: \underline{\href{https://projt1-3abb3.web.app/}{Demo}}}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Rat In A Maze} $|$ React, Tailwind CSS, BFS Algorithm}{Dec 2024}
+\resumeItemListStart
+\resumeItem{Interactive maze visualizer built with React and Tailwind CSS with grid-based navigation and obstacles.}
+\resumeItem{Implemented BFS algorithm for single-source shortest paths in an undirected acyclic graph.}
+\resumeItem{GitHub: \underline{\href{https://github.com/maadesh124/RatInAMaze}{Repo}} $|$ Live: \underline{\href{https://ratinamaze-vjrz.onrender.com/}{Demo}}}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements \& Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{NPTEL – Data Structures and Algorithms} \href{https://drive.google.com/file/d/1-v9CA066t5ZADi92BaX_GxqaD6KzTAKJ/view?usp=sharing}{\underline{(Certificate)}} \\
+     \textbf{District First:} Scored 100/100 in Mathematics (ISC Class XII) \\
+     \textbf{District Second:} ICSE Class X Board Exams
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
+
