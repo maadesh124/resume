@@ -84,7 +84,7 @@
 \resumeSubHeadingListStart
 \resumeSubheading
 {Vellore Institute of Technology, Chennai}{Chennai, India}
-{B.Tech. in Electronics and Communication Engineering; CGPA: 9.16}{Sept. 2022 -- May 2026}
+{B.Tech. in Electronics and Communication Engineering; CGPA: 9.18}{Sept. 2022 -- May 2026}
 \resumeSubheading
 {Christ International School - ISC }{Thanjavur, India}
 {Class XII; Percentage: 87.6\%}{2022}
@@ -94,10 +94,12 @@
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-\textbf{Languages}{: C/C++, Java, JavaScript, SQL} \\
-\textbf{Frameworks}{: React, Node.js, Express.js, Tailwind CSS} \\
-\textbf{Databases}{: PostgreSQL, MongoDB, Firebase} \\
-\textbf{Others}{: RESTful APIs, WebSockets, Git, GitHub}
+\textbf{Languages}{: C, C++, Embedded C, Java} \\
+\textbf{Embedded Systems}{: Microcontrollers, Firmware Development, Peripheral Interfacing} \\
+\textbf{Protocols}{: I2C, SPI, UART, GPIO} \\
+\textbf{Tools}{: Arduino, Git, Serial Debugging} \\
+\textbf{Web / Backend}{: JavaScript, React, Node.js, Express.js} \\
+\textbf{Databases}{: PostgreSQL, MongoDB, Firebase}
 }}
 \end{itemize}
 
@@ -130,37 +132,40 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
-\resumeProjectHeading
-{\textbf{Online Multiplayer Chess Application} $|$ React, Node.js, WebSockets, OOP Chess Engine}{May 2025}
-\resumeItemListStart
-\resumeItem{Developed full-stack web app with React frontend and Node.js backend using WebSockets for real-time multiplayer gameplay.}
-\resumeItem{Designed custom OOP chess engine for accurate move validation, game logic, and rules management.}
-\resumeItem{Repos: \underline{\href{https://github.com/maadesh124/ChessEngine}{Engine}}, \underline{\href{https://github.com/maadesh124/ChessWebSocket}{Server}}, \underline{\href{https://github.com/maadesh124/ChessWebApp}{Web App}} $|$ Live: \underline{\href{https://chesswebapp.onrender.com/}{Web App}}, \underline{\href{https://chesswebsocket.onrender.com/}{Server}}}
-\resumeItemListEnd
 
 \resumeProjectHeading
-{\textbf{Postgres ORM – Lightweight Recursive ORM} $|$ Node.js, PostgreSQL}{Feb 2025}
+{\textbf{AS7343 Arduino Library} $|$ Embedded C++, I2C, Arduino}{Mar 2025}
 \resumeItemListStart
-\resumeItem{Lightweight recursive ORM supporting caching, automatic class-table mapping, and relational operations.}
-\resumeItem{Features: Save/delete/query objects recursively; execute raw SQL; convert rows to objects using getInstance.}
-\resumeItem{GitHub: \underline{\href{https://github.com/maadesh124/pg_orm}{Repo}} }
+\resumeItem{Developed a low-level Arduino driver for the AMS AS7343 spectral sensor using register-level I2C communication.}
+\resumeItem{Implemented 8-bit register access, 16-bit little-endian data reads, and efficient burst reads for all spectral channels.}
+\resumeItem{Designed AVR-safe Wire usage with repeated START conditions for reliable data acquisition.}
+\resumeItem{GitHub: 
+\underline{\href{https://github.com/maadesh124/AS7343}{Repo}} }
 \resumeItemListEnd
 
-\resumeProjectHeading
-{\textbf{Attendance Monitoring Web App} $|$ Firebase, Embedded Hardware}{Jan 2025}
-\resumeItemListStart
-\resumeItem{Full-stack attendance system using Firebase for managing courses and real-time attendance.}
-\resumeItem{Integrated embedded hardware input for automated updates.}
-\resumeItem{GitHub: \underline{\href{https://github.com/maadesh124/Attendance-WebApp}{Repo}} $|$ Live: \underline{\href{https://projt1-3abb3.web.app/}{Demo}}}
-\resumeItemListEnd
+
 
 \resumeProjectHeading
-{\textbf{Rat In A Maze} $|$ React, Tailwind CSS, BFS Algorithm}{Dec 2024}
+{\textbf{Embedded Attendance Monitoring System} $|$ Embedded C++, RFID, LCD, Keypad, Firebase}{Jan 2025}
 \resumeItemListStart
-\resumeItem{Interactive maze visualizer built with React and Tailwind CSS with grid-based navigation and obstacles.}
-\resumeItem{Implemented BFS algorithm for single-source shortest paths in an undirected acyclic graph.}
-\resumeItem{GitHub: \underline{\href{https://github.com/maadesh124/RatInAMaze}{Repo}} $|$ Live: \underline{\href{https://ratinamaze-vjrz.onrender.com/}{Demo}}}
+\resumeItem{Designed a microcontroller-based attendance system using RFID authentication with LCD and keypad user interface.}
+\resumeItem{Integrated RFID scanner, LCD display, and keypad using Arduino/vendor libraries with GPIO and serial communication.}
+\resumeItem{Used a Firebase client library to transmit real-time attendance data from embedded firmware to the cloud backend.}
+\resumeItem{GitHub: \underline{\href{https://github.com/maadesh124/Attendance-WebApp}{Repo}} }
 \resumeItemListEnd
+
+
+
+\resumeProjectHeading
+{\textbf{Rat in a Maze Game} $|$ C++, BFS, Data Structures}{Dec 2024}
+\resumeItemListStart
+\resumeItem{Built a C++ pathfinding puzzle game where a rat navigates a grid-based maze with blocked cells.}
+\resumeItem{Implemented Breadth-First Search (BFS) to compute the shortest path from start to destination.}
+\resumeItem{Developed a custom linked-list-based queue in C++ to support efficient BFS traversal.}
+\resumeItem{GitHub: \underline{\href{https://github.com/maadesh124/DSA-PROJECT}{Repo}} }
+\resumeItemListEnd
+
+
 
 
 \resumeSubHeadingListEnd
